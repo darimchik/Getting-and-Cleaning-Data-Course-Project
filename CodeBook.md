@@ -48,10 +48,10 @@ The dataset includes the following files:
        X_train.txt - contains a large character vector, each element of which consists of 561 features (variables), including mean and standard deviation values used for a final dataset                   
        y_train.txt - contains activity labels 
 
-3. Two dataframes "test" and "train" were created, each contains 3 columns: "participant_id", "features", "activity", similar names across the datafremes were used to facilitate merging.
-       subject_test.txt = "participant_id"     subject_train.txt = "participant_id"  
-       X_test.txt = "features"                 X_train.txt = "features"
-       y_test.txt = "activity"                 y_train.txt = "activity"
+3. Two dataframes "test" and "train" were created, each contains 3 columns: "participant_id", "features", "activity", similar names across the dataframes were used to facilitate merging.
+       subject_test.txt = "participant_id", subject_train.txt = "participant_id"  
+       X_test.txt = "features", X_train.txt = "features"
+       y_test.txt = "activity", y_train.txt = "activity"
       
      
 4. Dataframes "test" and "train" were merged by row, resulting in a dataframe "mergeddata" with 3 columns and 10299 rows. 
@@ -76,15 +76,12 @@ The dataset includes the following files:
   4 tBodyAcc-std()-X                           
   5 tBodyAcc-std()-Y                          
   6 tBodyAcc-std()-Z                             
-
   41 tGravityAcc-mean()-X  
   42 tGravityAcc-mean()-Y 
   43 tGravityAcc-mean()-Z 
   44 tGravityAcc-std()-X 
   45 tGravityAcc-std()-Y   
-  46 tGravityAcc-std()-Z    
-  
-  
+  46 tGravityAcc-std()-Z     
   121 tBodyGyro-mean()-X
   123 tBodyGyro-mean()-Z
   123 tBodyGyro-mean()-Z
