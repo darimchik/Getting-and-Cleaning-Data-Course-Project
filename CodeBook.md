@@ -70,15 +70,29 @@ The dataset includes the following files:
    
   List of extracted measures from features.txt file:
   
-  1 tBodyAcc-mean()-X              41 tGravityAcc-mean()-X            121 tBodyGyro-mean()-X
-  2 tBodyAcc-mean()-Y              42 tGravityAcc-mean()-Y            122 tBodyGyro-mean()-Y         
-  3 tBodyAcc-mean()-Z              43 tGravityAcc-mean()-Z            123 tBodyGyro-mean()-Z
-  4 tBodyAcc-std()-X               44 tGravityAcc-std()-X             124 tBodyGyro-std()-X
-  5 tBodyAcc-std()-Y               45 tGravityAcc-std()-Y             125 tBodyGyro-std()-Y
-  6 tBodyAcc-std()-Z               46 tGravityAcc-std()-Z             126 tBodyGyro-std()-Z    
+  1 tBodyAcc-mean()-X                       
+  2 tBodyAcc-mean()-Y                             
+  3 tBodyAcc-mean()-Z                         
+  4 tBodyAcc-std()-X                           
+  5 tBodyAcc-std()-Y                          
+  6 tBodyAcc-std()-Z                             
 
-7. The resulting list "t.myvalues" was converted into a dataframe "df". A column "features" was added to "df" in order to facilitate merging with "mergeddata" dataframe using cbind, 
-   resulting in in a final dataframe "finaldf".
+  41 tGravityAcc-mean()-X  
+  42 tGravityAcc-mean()-Y 
+  43 tGravityAcc-mean()-Z 
+  44 tGravityAcc-std()-X 
+  45 tGravityAcc-std()-Y   
+  46 tGravityAcc-std()-Z    
+  
+  
+  121 tBodyGyro-mean()-X
+  123 tBodyGyro-mean()-Z
+  123 tBodyGyro-mean()-Z
+  124 tBodyGyro-std()-X
+  125 tBodyGyro-std()-Y
+  126 tBodyGyro-std()-Z  
+ 
+7. The resulting list "t.myvalues" was converted into a dataframe "df". A column "features" was added to "df" in order to facilitate merging with "mergeddata" dataframe using cbind, resulting in in a final dataframe "finaldf".
 
 
 
