@@ -69,6 +69,7 @@ The dataset includes the following files:
    only means and standard deviations which correspond to triaxial body acceleration (tBodyAcc-XYZ), gravity acceleration (tGravityAcc-XYZ), and angular velocity (tBodyGyro-XYZ) were extracted, resulting in 18 variables.
    
   List of extracted measures from features.txt file:
+  
   1 tBodyAcc-mean()-X              41 tGravityAcc-mean()-X            121 tBodyGyro-mean()-X
   2 tBodyAcc-mean()-Y              42 tGravityAcc-mean()-Y            122 tBodyGyro-mean()-Y         
   3 tBodyAcc-mean()-Z              43 tGravityAcc-mean()-Z            123 tBodyGyro-mean()-Z
